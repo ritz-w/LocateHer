@@ -1,0 +1,61 @@
+.events-container {
+    margin: 0px 60px;
+}
+
+.events-container h2 {
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    font-weight: 700;
+    text-align: left;
+}
+
+.events-search {
+    width: 50%;
+}
+
+.events-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .events-grid-item {
+    padding: 5%;
+  }
+
+  .event-image {
+    object-fit: contain;
+    width: 100%;
+    background-color: black !important;
+    height: 250px;
+}
+
+.event-title {
+    display: flex;
+    padding: 5% 5% 0% 5%;
+}
+
+.event-title h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+.event-title p {
+    color: black;
+}
+
+#date-span {
+    margin-right: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    font-weight: 200;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.date-box {
+    width: 20%;
+    margin: 0% 5%;
+}

@@ -1,0 +1,33 @@
+.stories-container {
+    margin: 0px 60px;
+}
+
+.stories-container h2 {
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+}
+
+.stories-search {
+    width: 50%;
+}
+
+.stories-display {
+    margin: 5% 0%;
+}
+
+.article-title h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 3% 5% 0% 5%;
+}
+
+.article-title p {
+    color: black;
+    padding: 0% 5% 3% 5%;
+}
+
+#article-tag {
+    color: grey;
+    text-align: left;
+}
+

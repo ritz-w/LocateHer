@@ -1,0 +1,42 @@
+.welcome-text {
+    margin-top: 10%;
+}
+.welcome-text h1, h2, h3, p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.welcome-text h1 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.welcome-text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 300;
+}
+
+.welcome-text p {
+    font-weight: 200;
+}
+
+.signup-links {
+    display: flex;
+    margin-top: 5%;
+    justify-content: space-around;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.signup-links h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: white;
+}
+
+

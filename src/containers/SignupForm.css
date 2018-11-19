@@ -1,0 +1,36 @@
+.signup-form-container {
+    background-color: white;
+}
+
+.signup-form-container h1, h2, h3, h4 {
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+    font-weight: 300;
+}
+
+.signup-form-container h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.signup-form-container h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.logo-text {
+    font-weight: 700;
+}
+
+.info-form {
+    width: 500px;
+    margin: 0 auto 10% auto;
+}
+
+.signup-input {
+    margin-top: 5%;
+}
+
+.space-down {
+    margin-bottom: 5%;
+}
