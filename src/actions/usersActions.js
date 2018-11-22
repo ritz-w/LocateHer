@@ -1,7 +1,7 @@
 export function fetchUsers() {
     return (dispatch) => {
     dispatch({ type: 'LOADING_USERS' });
-    return fetch('http://localhost:3000/users')
+    return fetch('https://locate-her-api.herokuapp.com/users')
     .then(res => res.json())
     .then(data => dispatch({type: "FETCH_USERS", payload: data}))
     }
@@ -9,7 +9,7 @@ export function fetchUsers() {
 
 export function signupUser(userInfo) {
     return (dispatch) => {
-        return fetch('http://localhost:3000/signup', {
+        return fetch('http:///signup', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -23,7 +23,7 @@ export function signupUser(userInfo) {
 
     export function signinUser(email, password) {
         return (dispatch) => {
-            return fetch('http://localhost:3000/signin', {
+            return fetch('https://locate-her-api.herokuapp.com//signin', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -43,7 +43,7 @@ export function signupUser(userInfo) {
 
     export function createConnection(userId, requestedUserId, expMessage, reqMessage) {
         return (dispatch) => {
-            return fetch('http://localhost:3000/connect_users', {
+            return fetch('https://locate-her-api.herokuapp.com/connect_users', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

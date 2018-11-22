@@ -1,6 +1,6 @@
 export function fetchEvents() {
     return (dispatch) => {
-    return fetch('http://localhost:3000/events')
+    return fetch('https://locate-her-api.herokuapp.com/events')
     .then(res => res.json())
     .then(data => dispatch({type: "FETCH_EVENTS", payload: data}))
     }
