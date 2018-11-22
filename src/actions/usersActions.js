@@ -9,7 +9,7 @@ export function fetchUsers() {
 
 export function signupUser(userInfo) {
     return (dispatch) => {
-        return fetch('http:///signup', {
+        return fetch('http://locate-her-api.herokuapp.com/signup', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
