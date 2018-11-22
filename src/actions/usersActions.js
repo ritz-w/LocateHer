@@ -57,3 +57,8 @@ export function signupUser(userInfo) {
             .then(data => dispatch({ type: 'CREATE_CONNECTION', payload: data}))
             }
         }
+export function getUserCoords(allUsers) {
+    return (dispatch) => {
+
+    }
+}
