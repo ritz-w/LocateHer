@@ -1,44 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## LocateHer
+LocateHer is a social networking platform that helps women connect to mentors in their area, as well as professional opportunities and events. Users sign up as mentors or mentees, can view other active users in their geolocated area, and offer to be a mentor or request to be mentored. 
 
-## Available Scripts
+## Background
+The idea for this app was developed as a part of the [Women Founders Hack](https://womenfoundershack.foundersofthefuture.co/) 2018, organised by Founders of the Future. It was a 48 hour hackathon to tackle gender diversity in tech. With over 200 participants from diverse backgrounds, we formed groups to propose business ideas to be judged by a panel. 
 
-In the project directory, you can run:
+The team which I joined initially described their idea as an "Uber for mentors" - in the sense of being able to geolocate a casual networking opportunity. I was interested to try implementing geolocation and Google Maps API toward building this app. As technical lead of the team, over 48 hours, I was able to build a functioning demo of the platform that included an events page, a blog, and the ability to view other users positioned on a dynamically updating map. Other features have been left visible but not interactive, as this is primarily a demo.
 
-### `npm start`
+It was interesting to develop this project as a part of a team which also focused on marketing, business development, and business strategy. I was in charge of designing and bringing the product to life, but the attention to detail in planning around the product and envisioning its potential was very eye-opening to be a part of. 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Tech/Frameworks Used
 
-### `npm test`
+<b>Languages</b>
+- Ruby
+- Javascript
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<b>Web Frameworks</b>
+- [Ruby on Rails](https://rubyonrails.org/)
+- [React](https://reactjs.org/)
+- [Redux](https://facebook.github.io/react-360/)
 
-### `npm run build`
+<b>UI Library</b>
+- [Semantic UI React](https://react.semantic-ui.com/)
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<b>Components</b>
+- [React Geocode](https://github.com/bokuweb/re-resizable)
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Features
+- User can create account as a mentor or mentee and log in, using JWT Auth and JSON web tokens
+- User can access their dashboard to view other users on the map (whether mentors or mentees), and in a list form 
+- User can view other users' information and decide whether to send them a custom request to mentor them or to become a mentee
+- User can accept or reject mentorship requests
+- User can view the 'Stories' page to see latest blog posts (currently dummy content)
+- User can view the 'Events' page to see local networking events
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API Reference
 
-### `npm run eject`
+<b>Geolocation API</b>
+- [Google Maps API](https://cloud.google.com/maps-platform/?hl=zh-tw)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to use?
+Recommended usage of the app:
+1) Create an account by selecting whether to sign up as a mentor or mentee on the front page. Enter your career details and  click 'Sign Up'.
+2) On your dashboard, explore other users' profiles. You can filter other users by whether they are mentors or mentees. 
+3) Request to become a mentor by filling out the form in the user's profile. 
+5) Explore the 'Stories' and 'Events' page, which cannot be clicked as they are filled with dummy content.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contribute
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I would welcome any suggestions or contributions to this project ! When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with me [ritz.wu@outlook.com] before making a change.
 
-## Learn More
+## Credits
+Co-created with Carla Cilli, Damian Zabielski, Isobel Macfarland, Katya Merkalenko, and Ava Isak
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
+If there is any issue with this app please email [ritz.wu@outlook.com].
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+This project is licensed under the MIT License - © [Ritz Wu](http://www.ritsu.net/) 
